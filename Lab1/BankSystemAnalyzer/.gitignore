@@ -12,3 +12,5 @@ target/
 # Ignore other unwanted files
 *.log
 *.tmp
+
+bin/
