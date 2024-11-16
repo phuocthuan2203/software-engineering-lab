@@ -1,7 +1,9 @@
-package main.java;
+package main.java.utility;
 
 import java.io.*;
 import java.util.*;
+
+import main.java.model.Transaction;
 
 public class DataFilter {
 

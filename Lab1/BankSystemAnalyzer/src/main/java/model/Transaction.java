@@ -1,4 +1,4 @@
-package main.java;
+package main.java.model;
 
 public class Transaction {
     private String date;
@@ -23,4 +23,3 @@ public class Transaction {
         return category;
     }
 }
-
