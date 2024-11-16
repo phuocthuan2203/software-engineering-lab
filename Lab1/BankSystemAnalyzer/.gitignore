@@ -1,0 +1,14 @@
+# Ignore target directory (generated build artifacts)
+target/
+
+# Ignore IDE and editor-specific files
+.idea/
+*.iml
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore other unwanted files
+*.log
+*.tmp
