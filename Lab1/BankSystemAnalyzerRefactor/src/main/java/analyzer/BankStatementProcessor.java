@@ -1,7 +1,10 @@
 package main.java.analyzer;
 
 import java.time.Month;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import main.java.model.BankTransaction;
 
@@ -38,5 +41,19 @@ public class BankStatementProcessor {
             }
         }
         return total;
+    }
+
+    public List<Map.Entry<String, Double>> getTop10Expenses() {
+        Map<String, Double> categoryTotals = new HashMap<>();
+        for (final BankTransaction bankTransaction : bankTransactions) {
+            if (bankTransaction.getAmount() < 0) {
+                String category = bankTransaction.getDescription();
+                double amount = Math.abs(bankTransaction.getAmount());
+                categoryTotals.put(category, categoryTotals.getOrDefault(category, 0.0) + amount);
+            }
+        }
+        return categoryTotals.entrySet().stream()
+                .sorted((entry1, entry2) -> Double.compare(entry2.getValue(), entry1.getValue())).limit(10)
+                .collect(Collectors.toList());
     }
 }
