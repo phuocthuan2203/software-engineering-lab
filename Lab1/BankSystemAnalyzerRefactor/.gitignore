@@ -3,3 +3,12 @@ bin/
 .vscode/
 
 README.md
+
+# Ignore all files in the output directory 
+src/main/output/* 
+
+# Keep the output directory 
+!src/main/output/ 
+
+# Ignore the target directory
+target/

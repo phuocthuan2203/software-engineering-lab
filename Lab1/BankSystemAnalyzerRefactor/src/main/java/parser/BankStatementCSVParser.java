@@ -1,13 +1,14 @@
-package main.java.parser;
+package parser;
 
-import main.java.model.BankTransaction;
-import main.java.util.DateUtils;
+import model.BankTransaction;
+import util.DateUtils;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class BankStatementCSVParser implements BankStatementParser {
+
     @Override
     public BankTransaction parseFrom(final String line) {
         final String[] columns = line.split(",");

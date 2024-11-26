@@ -1,4 +1,4 @@
-package main.java.analyzer;
+package analyzer;
 
 import java.time.Month;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import main.java.model.BankTransaction;
+import model.BankTransaction;
 
 public class BankStatementProcessor {
     private final List<BankTransaction> bankTransactions;

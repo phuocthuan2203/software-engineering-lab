@@ -1,0 +1,118 @@
+[
+    {
+      "date": "30-01-2017",
+      "amount": -100,
+      "description": "Deliveroo"
+    },
+    {
+      "date": "30-01-2017",
+      "amount": -50,
+      "description": "Tesco"
+    },
+    {
+      "date": "01-02-2017",
+      "amount": 6000,
+      "description": "Salary"
+    },
+    {
+      "date": "02-02-2017",
+      "amount": 2000,
+      "description": "Royalties"
+    },
+    {
+      "date": "02-02-2017",
+      "amount": -4000,
+      "description": "Rent"
+    },
+    {
+      "date": "03-02-2017",
+      "amount": 3000,
+      "description": "Tesco"
+    },
+    {
+      "date": "04-02-2017",
+      "amount": -3000,
+      "description": "Shopping"
+    },
+    {
+      "date": "05-02-2017",
+      "amount": -30,
+      "description": "Cinema"
+    },
+    {
+      "date": "15-03-2017",
+      "amount": 1500,
+      "description": "Freelance"
+    },
+    {
+      "date": "25-03-2017",
+      "amount": -1200,
+      "description": "Car Insurance"
+    },
+    {
+      "date": "10-04-2017",
+      "amount": -500,
+      "description": "Internet Bill"
+    },
+    {
+      "date": "12-04-2017",
+      "amount": 4500,
+      "description": "Salary"
+    },
+    {
+      "date": "01-05-2017",
+      "amount": 3000,
+      "description": "Freelance"
+    },
+    {
+      "date": "15-05-2017",
+      "amount": -1000,
+      "description": "Groceries"
+    },
+    {
+      "date": "20-06-2017",
+      "amount": -300,
+      "description": "Utilities"
+    },
+    {
+      "date": "05-07-2017",
+      "amount": 5000,
+      "description": "Salary"
+    },
+    {
+      "date": "10-07-2017",
+      "amount": -1000,
+      "description": "Shopping"
+    },
+    {
+      "date": "01-08-2017",
+      "amount": -2000,
+      "description": "Travel"
+    },
+    {
+      "date": "05-08-2017",
+      "amount": 2500,
+      "description": "Freelance"
+    },
+    {
+      "date": "10-09-2017",
+      "amount": -1500,
+      "description": "Car Loan"
+    },
+    {
+      "date": "01-10-2017",
+      "amount": 7000,
+      "description": "Salary"
+    },
+    {
+      "date": "10-11-2017",
+      "amount": -400,
+      "description": "Entertainment"
+    },
+    {
+      "date": "25-12-2017",
+      "amount": -3000,
+      "description": "Shopping"
+    }
+  ]
+  
