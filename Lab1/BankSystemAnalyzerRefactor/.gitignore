@@ -9,6 +9,10 @@ src/main/output/*
 
 # Keep the output directory 
 !src/main/output/ 
+!src/main/output/.gitkeep
 
 # Ignore the target directory
 target/
+
+# Ignore all .class files 
+*.class
